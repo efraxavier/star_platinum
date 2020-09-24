@@ -1,0 +1,92 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    activesupport (6.0.3.3)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      i18n (>= 0.7, < 2)
+      minitest (~> 5.1)
+      tzinfo (~> 1.1)
+      zeitwerk (~> 2.2, >= 2.2.2)
+    builder (3.2.4)
+    concurrent-ruby (1.1.7)
+    cucumber (5.1.2)
+      builder (~> 3.2, >= 3.2.4)
+      cucumber-core (~> 8.0, >= 8.0.1)
+      cucumber-create-meta (~> 2.0, >= 2.0.2)
+      cucumber-cucumber-expressions (~> 10.3, >= 10.3.0)
+      cucumber-gherkin (~> 15.0, >= 15.0.2)
+      cucumber-html-formatter (~> 9.0, >= 9.0.0)
+      cucumber-messages (~> 13.1, >= 13.1.0)
+      cucumber-wire (~> 4.0, >= 4.0.1)
+      diff-lcs (~> 1.4, >= 1.4.4)
+      multi_test (~> 0.1, >= 0.1.2)
+      sys-uname (~> 1.2, >= 1.2.1)
+    cucumber-core (8.0.1)
+      cucumber-gherkin (~> 15.0, >= 15.0.2)
+      cucumber-messages (~> 13.0, >= 13.0.1)
+      cucumber-tag-expressions (~> 2.0, >= 2.0.4)
+    cucumber-create-meta (2.0.2)
+      cucumber-messages (~> 13.0, >= 13.0.1)
+      sys-uname (~> 1.2, >= 1.2.1)
+    cucumber-cucumber-expressions (10.3.0)
+    cucumber-gherkin (15.0.2)
+      cucumber-messages (~> 13.0, >= 13.0.1)
+    cucumber-html-formatter (9.0.0)
+      cucumber-messages (~> 13.0, >= 13.0.1)
+    cucumber-messages (13.1.0)
+      protobuf-cucumber (~> 3.10, >= 3.10.8)
+    cucumber-tag-expressions (2.0.4)
+    cucumber-wire (4.0.1)
+      cucumber-core (~> 8.0, >= 8.0.1)
+      cucumber-cucumber-expressions (~> 10.3, >= 10.3.0)
+      cucumber-messages (~> 13.0, >= 13.0.1)
+    diff-lcs (1.4.4)
+    ffi (1.13.1)
+    httparty (0.18.1)
+      mime-types (~> 3.0)
+      multi_xml (>= 0.5.2)
+    i18n (1.8.5)
+      concurrent-ruby (~> 1.0)
+    middleware (0.1.0)
+    mime-types (3.3.1)
+      mime-types-data (~> 3.2015)
+    mime-types-data (3.2020.0512)
+    minitest (5.14.2)
+    multi_test (0.1.2)
+    multi_xml (0.6.0)
+    protobuf-cucumber (3.10.8)
+      activesupport (>= 3.2)
+      middleware
+      thor
+      thread_safe
+    rspec (3.9.0)
+      rspec-core (~> 3.9.0)
+      rspec-expectations (~> 3.9.0)
+      rspec-mocks (~> 3.9.0)
+    rspec-core (3.9.2)
+      rspec-support (~> 3.9.3)
+    rspec-expectations (3.9.2)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.9.0)
+    rspec-mocks (3.9.1)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.9.0)
+    rspec-support (3.9.3)
+    sys-uname (1.2.1)
+      ffi (>= 1.0.0)
+    thor (1.0.1)
+    thread_safe (0.3.6)
+    tzinfo (1.2.7)
+      thread_safe (~> 0.1)
+    zeitwerk (2.4.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  cucumber
+  httparty
+  rspec
+
+BUNDLED WITH
+   2.1.4
