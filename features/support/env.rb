@@ -5,6 +5,7 @@ require 'rspec'
 require 'httparty'
 require_relative 'helper.rb'
 require_relative 'page_helper.rb'
+require 'chromedriver-helper'
 
 AMBIENTE = ENV['AMBIENTE']
 
