@@ -1,6 +1,7 @@
 ---
 
-default: -p pretty -p hml --publish-quiet 
+default: -p pretty -p hml --publish-quiet -p html
 
 pretty: --format pretty
 hml: AMBIENTE=hml
+html: --format html --out=reports/relatorio.html
