@@ -1,1 +1,2 @@
 url_default: 'https://automacaocombatista.herokuapp.com/'
+base_uri: 'https://api-de-tarefas.herokuapp.com'
