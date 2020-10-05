@@ -1,3 +1,4 @@
+class Jorge
 describe 'Cadastrar' do
     def login(field_email, field_password)
         @body = {
@@ -32,4 +33,5 @@ describe 'Cadastrar' do
       expect(@tarefas.parsed_response['data']['attributes']['title']).to eq 'Criei Tarefa'
     end
   end
+end
 end
